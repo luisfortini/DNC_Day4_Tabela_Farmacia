@@ -4,9 +4,7 @@
 }
 
 body{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background: #F5F5F5;
 }
 header{
 display: flex;
@@ -15,6 +13,7 @@ background: #76BEBE;
 padding: 1rem 3rem ;
 align-items: center;
 color: white;
+min-width: 100vh;
 }
 
 header h4{
@@ -27,6 +26,7 @@ header h4{
   text-align: center;
   align-items: center;
   padding: 1rem 0;
+  background-color: white;
 }
 
 #top-content h1{
@@ -59,7 +59,7 @@ input{
   border-radius: 0.5rem ;
   padding: 0.5rem 1rem ;
   border: 0;
-  margin-bottom: 1rem ;
+  margin-bottom: 2rem ;
 }
 
 #btn-cadastrar{
